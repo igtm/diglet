@@ -1,8 +1,8 @@
 package osm_test
 
 import (
-	"github.com/buckhx/diglet/geo/osm"
-	"github.com/buckhx/diglet/util"
+	"github.com/igtm/diglet/geo/osm"
+	"github.com/igtm/diglet/util"
 	//"sync"
 	_ "testing"
 )

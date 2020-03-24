@@ -3,7 +3,7 @@ package osm
 import (
 	_ "bytes"
 	_ "encoding/gob"
-	"github.com/buckhx/diglet/util"
+	"github.com/igtm/diglet/util"
 	"github.com/qedus/osmpbf"
 	"gopkg.in/vmihailenco/msgpack.v2"
 	"strconv"

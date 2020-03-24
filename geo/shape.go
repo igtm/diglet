@@ -3,7 +3,7 @@ package geo
 import (
 	"encoding/json"
 
-	"github.com/buckhx/diglet/util"
+	"github.com/igtm/diglet/util"
 )
 
 type Shape struct {

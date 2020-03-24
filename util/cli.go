@@ -1,7 +1,7 @@
 package util
 
 import (
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 )
 
 func Die(c *cli.Context, msg string) {

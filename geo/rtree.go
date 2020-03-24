@@ -1,7 +1,7 @@
 package geo
 
 import (
-	"github.com/buckhx/diglet/util"
+	"github.com/igtm/diglet/util"
 	"github.com/buckhx/rtreego"
 )
 

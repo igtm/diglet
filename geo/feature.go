@@ -3,7 +3,7 @@ package geo
 import (
 	"strings"
 
-	_ "github.com/buckhx/diglet/util"
+	_ "github.com/igtm/diglet/util"
 )
 
 const (

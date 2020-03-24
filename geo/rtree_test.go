@@ -1,7 +1,7 @@
 package geo_test
 
 import (
-	"github.com/buckhx/diglet/geo"
+	"github.com/igtm/diglet/geo"
 	"testing"
 )
 

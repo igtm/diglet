@@ -1,7 +1,7 @@
 package osm
 
 import (
-	"github.com/buckhx/diglet/util"
+	"github.com/igtm/diglet/util"
 	"github.com/qedus/osmpbf"
 	"io"
 	"os"

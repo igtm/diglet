@@ -3,7 +3,7 @@ package geo
 import (
 	"math"
 
-	"github.com/buckhx/diglet/util"
+	"github.com/igtm/diglet/util"
 	"github.com/buckhx/tiles"
 )
 

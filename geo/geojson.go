@@ -2,7 +2,7 @@ package geo
 
 import (
 	"encoding/json"
-	"github.com/buckhx/diglet/util"
+	"github.com/igtm/diglet/util"
 	"github.com/deckarep/golang-set"
 	"github.com/kpawlik/geojson"
 	"io/ioutil"
