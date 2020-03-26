@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 
 	"github.com/igtm/diglet/util"
+	"github.com/deckarep/golang-set"
 	"github.com/kpawlik/geojson"
 )
 
