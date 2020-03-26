@@ -2,10 +2,10 @@ package geo
 
 import (
 	"encoding/json"
-	"github.com/igtm/diglet/util"
-	"github.com/deckarep/golang-set"
-	"github.com/kpawlik/geojson"
 	"io/ioutil"
+
+	"github.com/igtm/diglet/util"
+	"github.com/kpawlik/geojson"
 )
 
 type GeojsonSource struct {
@@ -43,9 +43,6 @@ func GeojsonFeatureAdapter(gj *geojson.Feature) (feature *Feature, err error) {
 	feature = NewFeature(igeom.GetType())
 	//TODO filter properties
 	feature.Properties = gj.Properties
-	if feature.Properties != nil {
-		feature.Properties["id"] = gj.Id
-	}
 	//TODO if id == nil assign a fake one
 	feature.Type = igeom.GetType()
 	switch geom := igeom.(type) {
